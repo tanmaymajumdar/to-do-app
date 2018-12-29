@@ -42,7 +42,7 @@ code {
   border-radius: 50%;
   float: right;
   margin: 2%;
-  position:absolute;
+  position:fixed;
   bottom: 0;
   right:0;
   box-shadow: 1px 1px 4px 1px grey;
@@ -52,4 +52,21 @@ code {
 .myFloatingButton:hover{
   box-shadow: 1px 1px 4px 4px grey;
   cursor:pointer;
+}
+
+#addTodoform{
+
+  margin-left: 23%;
+  margin-right: 23%;
+  display: block;
+}
+
+#addTodoText{
+  padding-top:10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#hidden{
+  display: none;
 }
