@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+h1{
+  text-align: center;
+  color: #448aff;
+  font-size: 3em;
+}
 
 .todocard{
   margin-left: 23%;
@@ -63,10 +68,26 @@ code {
 
 #addTodoText{
   padding-top:10px;
-  font-size: 1.5em;
+  font-size: 1.0em;
   font-weight: bold;
 }
 
 #hidden{
   display: none;
+}
+
+input[type=text] {
+  position:relative;
+  width:100%;
+  border-style: solid;
+  border-color: #448aff;
+  opacity: .5;
+  border-width: 0 0 3px 0;
+  margin-top: 10px;
+  padding: 5px;
+  transition:.4s opacity;
+}
+
+input[type=text]:hover {
+  opacity: 1;
 }
